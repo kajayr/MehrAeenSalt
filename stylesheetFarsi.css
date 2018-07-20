@@ -1,0 +1,502 @@
+
+#mainPageFarsi
+{	
+width:50%;
+  display:none;
+  margin: 0 auto;
+}
+
+#welcomeFarsi
+{
+font-size:250%; 	
+}
+
+
+ /* Salt11 starts here */ 
+#salt11
+{
+  position: relative;
+  right:0%;
+  top: 10%;
+
+  width: 30%;
+  text-align: left;
+  cursor: pointer;
+}
+
+#Salt1Explain11
+{
+  position:relative;
+  top:30px;
+  left:50px;
+  height:400px;
+  width:850px;
+  background-color: #505050;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+  padding-right:10px;
+  height:500px;
+  width:850px;
+}
+
+#BackButtons11
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  font-size:18px;
+  
+}
+
+#ButtonPossition11
+{
+	text-align: center;
+	display: none;
+}
+ /* END of Salt11 */
+
+ /* Salt22 starts here */ 
+#salt22
+{
+  position: relative;
+  right:0%;
+  top: 10%;
+
+  width: 30%;
+  text-align: left;
+  cursor: pointer;
+}
+
+#Salt1Explain22
+{
+  position:relative;
+  top:30px;
+  left:50px;
+  height:400px;
+  width:850px;
+  background-color: #505050;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+  padding-right:10px;
+  height:500px;
+  width:850px;
+}
+
+#BackButtons22
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+    font-size:18px;
+  
+}
+
+#ButtonPossition22
+{
+	text-align: center;
+	display: none;
+}
+/* End of Salt22 */ 
+
+/* Salt33 starts here */ 
+#salt33
+{
+  position: relative;
+  right:0%;
+  top: 10%;
+
+  width: 30%;
+  text-align: left;
+  cursor: pointer;
+}
+
+#Salt1Explain33
+{
+  position:relative;
+  top:30px;
+  left:50px;
+  height:400px;
+  width:850px;
+  background-color: #505050;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+  padding-right:10px;
+  height:500px;
+  width:850px;
+}
+
+#BackButtons33
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+    font-size:18px;
+  
+}
+
+#ButtonPossition33
+{
+	text-align: center;
+	display: none;
+}
+/* End of Salt33 */ 
+
+/* Salt44 starts here */ 
+#salt44
+{
+  position: relative;
+  right:0%;
+  top: 10%;
+
+  width: 30%;
+  text-align: left;
+  cursor: pointer;
+}
+
+#Salt1Explain44
+{
+  position:relative;
+  top:30px;
+  left:50px;
+  height:400px;
+  width:850px;
+  background-color: #505050;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+  padding-right:10px;
+  height:500px;
+  width:850px;
+}
+
+#BackButtons44
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+    font-size:18px;
+  
+}
+
+#ButtonPossition44
+{
+	text-align: center;
+	display: none;
+}
+/* End of Salt44 */ 
+
+/* Salt55 starts here */ 
+#salt55
+{
+  position: relative;
+  right:0%;
+  top: 10%;
+
+  width: 30%;
+  text-align: left;
+  cursor: pointer;
+}
+
+#Salt1Explain55
+{
+  position:relative;
+  top:30px;
+  left:50px;
+  height:550px;
+  width:850px;
+  background-color: #505050;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+  text-align: right;
+  padding-right:10px;
+}
+
+#BackButtons55
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+    font-size:18px;
+  
+}
+
+#ButtonPossition55
+{
+	text-align: center;
+	display: none;
+}
+/* End of Salt55 */ 
+
+/* Salt66 starts here */ 
+#salt66
+{
+  position: relative;
+  right:0%;
+  top: 10%;
+
+  width: 30%;
+  text-align: left;
+  cursor: pointer;
+}
+
+#Salt1Explain66
+{
+  position:relative;
+  top:30px;
+  left:50px;
+  background-color: #505050;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+  padding-right:10px;
+  height:500px;
+  width:850px;
+}
+
+#BackButtons66
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  font-size:18px;
+  
+}
+
+#ButtonPossition66
+{
+	text-align: center;
+	display: none;
+}
+/* End of Salt66 */ 
+
+ /* Bar */
+
+.allPF
+{
+  position:relative;
+  left:5px;
+  bottom:5px;
+  font-size: 18px;
+  margin-top: .5em; color: #F5F5F5;
+  text-indent:1em;  
+  text-align: justify;
+  direction: rtl;
+  text-align: right;
+}
+
+
+.barFarsi
+{
+  width: 100%;
+  margin: 0 auto;
+  background-color:#b22222;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+  margin-top:1%;
+
+}
+
+
+
+.btn-groupF button {
+	font-weight: bold;
+    border: 1px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: right; /* Float the buttons side by side */
+   background-color:#8b0000;
+     font-size:100%;
+   
+}
+
+.btn-groupF button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-groupF:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-groupF button:hover {
+    background-color: red;
+}
+ /* Starts advantage */
+#advantageBarExplainFarsi
+{
+  position:relative;
+  top:5%;
+
+width: 100%;
+height: 0%;
+padding-bottom: 5%;
+  display:none;
+
+  border-radius: 5px;
+
+}
+
+
+#advantageBarBackButtonsFarsi
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+
+#advantageBarButtonPossitionFarsi
+{
+	text-align: center;
+	display: none;
+}
+#advantagePictureF
+{
+  position:relative;
+  top:10%;
+
+  background-image: url(images/Halotherapy.jpg);
+  background-repeat: no-repeat;
+
+width: 100%;
+height: 0%;
+padding-bottom: 70%;
+  display:none;
+  margin: 0;
+}
+#h1advantage
+{
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ margin-top: 570px;
+ color: white;
+ margin: 0;
+ padding: 0px 0px 6px 0px;
+ font-size: 250%;
+ line-height: 44px;
+ letter-spacing: -2px;
+ font-weight: bold;
+ text-align: center;
+ margin-top:10px;
+}
+#advantagePfarsi
+{
+  position:relative;
+  left:4px;
+  bottom:5px;
+  text-align: right;
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 120%;
+  margin-top: .5em;
+  color: white;
+  text-indent:1em;  
+  text-align:justify;
+  padding-right:10px;
+  direction: rtl;
+
+}
+
+ /* END of advantage */
+
+/*About Us Starts here*/
+
+#AboutUsExplainFarsi
+{
+  position:relative;
+  top:40px;
+  left:2px;
+  height:566px;
+  width:950px;
+  display:none;
+  border:.5px solid black;
+  border-radius: 5px;
+}
+
+#AboutUsBackButtonsFarsi
+{
+  
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  font-size:18px;
+  
+}
+
+#AboutUsButtonPossitionFarsi
+{
+	text-align: center;
+	display: none;
+}
+
+#AboutUsPFarsi
+{
+  position:relative;
+  left:4px;
+  bottom:5px;
+  text-align: left;
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 18px;
+  margin-top: .5em;
+  color: black;
+  text-indent:1em;  
+  text-align:justify;
+  padding-right:10px;
+  direction:rtl;
+}
+
+/* END of About Us */ 
+
+#PicTableButtonPossitionF
+{
+	text-align: center;
+	display: none;
+	padding-top:20px;
+}
+
+#PicShowF
+{
+  position:relative;
+  top:40px;
+  left:2px;
+  height:566px;
+  width:950px;
+  display:none;
+  border-radius: 5px;
+}
+
+#PicTableBackButtonsF
+{
+	font-size:18px;
+}
