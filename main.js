@@ -1,6 +1,6 @@
 $(document).ready(() => {
 $('#eng').on('click', () => {	
-$('.MainDiv').hide();
+$('.content').hide();
 $('#mainPage').fadeIn(1000);
 
 

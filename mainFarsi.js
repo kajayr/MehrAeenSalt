@@ -1,6 +1,6 @@
 $(document).ready(() => {
 $('#farsi').on('click', () => {	
-$('.MainDiv').hide();
+$('.content').hide();
 $('#mainPageFarsi').fadeIn(1000);
 
 });
@@ -154,13 +154,10 @@ $('#salt66').delay(1000).fadeIn(1000);
 // End of Salt66
 
 //AdvantageFarsi 
+
 $('#advantageBarFarsi').on('click', () => {
-$('#salt11').fadeOut(500);
-$('#salt22').fadeOut(500);
-$('#salt33').fadeOut(500);
-$('#salt44').fadeOut(500);
-$('#salt55').fadeOut(500);
-$('#salt66').fadeOut(500);
+$('#PicShowF').delay(700).hide(1000);
+$('#PicTableButtonPossition').delay(2000).fadeOut();
 $('#AboutUsButtonPossitionFarsi').fadeOut(1);
 $('#AboutUsExplainFarsi').hide(1000);
 $('#advantageBarButtonPossitionFarsi').fadeOut(1);
@@ -178,8 +175,14 @@ $('#ButtonPossition55').fadeOut(1);
 $('#Salt1Explain55').hide(1000);
 $('#ButtonPossition66').fadeOut(1);
 $('#Salt1Explain66').hide(1000);
-$('#PicShowF').delay(700).hide(1000);
-$('#PicTableButtonPossition').delay(2000).fadeOut();
+$('#salt11').fadeOut(500);
+$('#salt22').fadeOut(500);
+$('#salt33').fadeOut(500);
+$('#salt44').fadeOut(500);
+$('#salt55').fadeOut(500);
+$('#salt66').fadeOut(500);
+$('#AboutUsButtonPossitionFarsi').fadeOut(1);
+$('#AboutUsExplainFarsi').hide(1000);
 $('#advantageBarExplainFarsi').delay(700).show(1000);
 $('#advantagePictureF').delay(700).show(1000);	
 $('#advantageBarButtonPossitionFarsi').delay(2000).slideDown();

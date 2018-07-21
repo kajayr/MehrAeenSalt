@@ -1,0 +1,94 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .MainButton {
+    width: 49%;
+  }
+  #welcomeText{
+  	font-size:2em;
+  	display:none;
+  }
+  .btn-group button 
+  {
+  	display:block;
+  	font-size: 1em;
+  	justify-content: center;
+    margin: 0 auto;
+    width: 146px;
+  }
+  .btn-groupF button 
+  {
+  	display:block;
+  	font-size: 1em;
+  	justify-content: center;
+    margin: 0 auto;
+    width: 146px;
+  }
+  #advantageP
+  {
+  	font-size:0.5em;
+  }
+  #h1advantage
+  {
+  	font-size:1em;
+  }
+  #advantagePicture
+  {
+   max-width: 100%;
+  height: auto;
+  display: none;
+  
+  }
+  
+  #pictures
+  {
+  	disabled:disabled;
+  }
+  #salt11
+  {
+  	display:none;
+  }
+  #salt22
+  {
+  	display:none;
+  }
+  #salt33
+  {
+  	display:none;
+  }
+  #salt44
+  {
+  	display:none;
+  }
+  #salt55
+  {
+  	display:none;
+  }
+  #salt66
+  {
+  	display:none;
+  }
+  
+  #salt1
+  {
+  	display:none;
+  }
+    #salt2
+  {
+  	display:none;
+  }
+    #salt3
+  {
+  	display:none;
+  }
+    #salt4
+  {
+  	display:none;
+  }
+    #salt5
+  {
+  	display:none;
+  }
+    #salt6
+  {
+  	display:none;
+  }
+}

@@ -1,7 +1,10 @@
-
+body
+{
+	width:100%;
+}
 #mainPage
 {	
-width:50%;
+  width:50%;
   display:none;
   margin: 0 auto;
 }
@@ -284,73 +287,57 @@ width:50%;
 	  margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
 
 
-.ManButtons button
+.MainButton
 {
-  margin: 0 auto;
+  margin:0 auto;
   cursor: pointer;
   border: 0.5px solid gray;
   position: relative;
-  top: 100px;
-  width: 105px;
-  color:white;
-  padding:5px 10px;
+  top: 50%;
+  width: 20%;
+  color:black;
+  padding:1% 5%;
   text-align: center;
-  font-size:150%;
+font-size:1.5em;
   font-weight: bold;
-  border: 1px solid gray; /* Green border */
+  border: 1px solid black; /* Green border */
   cursor: pointer; /* Pointer/hand icon */
    /* Float the buttons side by side */
-  background-color:black;
-  display: flex;
-  justify-content: center;
+  background-color:orange;
+  border-radius: 20px;
+  
+  
 }
-.ManButtons button:not(:last-child) {
+.MainButton button:not(:last-child) {
     border-right: none; /* Prevent double borders */
 }
 
-.ManButtons:after {
-    content: "";
-    clear: both;
-    display: table;
+.MainButton:hover {
+    background-color: #d66a00;
+    color: white;
 }
-.ManButtons button:hover {
-    background-color: gray;
 
-}
-.selectLang
-{
-  font-family: "Tangerine", serif;
-  font-size: 300%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top:3%;
-
-}
  /* First Page Ends here */ 
-#selectLangPosition
-{
-	
-}
 #welcomeText
 {
-	
-font-size:100%;
+color:orange;
+border-bottom: 100% solid #d66a00;
+border-left: 50% solid transparent;
+border-right: 50% solid transparent;
+font-family: "Tangerine", serif;
+font-size:3em;
+margin: 0 auto;
+text-align: center;
 }
-#welcome
+.welcome
 {
-  font-family: "Tangerine", serif;
-  font-size:200%;
-  margin: 0 auto;
-  text-align: center;
-  height:10px;
-  width: 500px;
+
+
 }
 
 .bar
@@ -358,11 +345,11 @@ font-size:100%;
 
   width: 100%;
   margin: 0 auto;
-  background-color:#b22222;
+  background-color:#d66a00;
   border-radius: 5px;
   border: 1px solid black;
   text-align: center;
-  margin-top:5%;
+  margin-top:1%;
 
 }
  /* English Button */ 
@@ -376,8 +363,9 @@ font-size:100%;
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
-   background-color:#8b0000;
- font-size:80%;
+   background-color:orange;
+   font-size:0.8vw;
+
 }
 
 .btn-group button:not(:last-child) {
@@ -393,7 +381,7 @@ font-size:100%;
 
 /* Add a background color on hover */
 .btn-group button:hover {
-    background-color: red;
+    background-color: #d66a00;
 }
 
 /*Advantage Starts here*/
@@ -447,7 +435,6 @@ padding-bottom: 70%;
  color: white;
  margin: 0;
  padding: 0px 0px 6px 0px;
- font-size: 250%;
  line-height: 44px;
  letter-spacing: -2px;
  font-weight: bold;
@@ -460,7 +447,7 @@ padding-bottom: 70%;
   bottom:5px;
   text-align: left;
   font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 120%;
+font-size:1em;
   margin-top: .5em;
   color: white;
   text-indent:1em;  
@@ -508,7 +495,7 @@ padding-bottom: 70%;
   bottom:5px;
   text-align: left;
   font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   margin-top: .5em;
   color: black;
   text-indent:1em;  
@@ -525,7 +512,7 @@ padding-bottom: 70%;
   bottom:5px;
   text-align: left;
   font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   margin-top: .5em; color: #F5F5F5;
   text-indent:1em;  
   text-align:justify;
@@ -537,7 +524,7 @@ padding-bottom: 70%;
  color: #F5F5F5;
  margin: 0;
  padding: 10px 0px 6px 0px;
- font-size: 51px;
+font-size:2em;
  line-height: 44px;
  letter-spacing: -2px;
  font-weight: bold;
@@ -564,13 +551,13 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid red;
     text-align: center;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #d66a00;
 }
 
 #PicTableBackButtons
